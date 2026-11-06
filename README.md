@@ -1,6 +1,12 @@
 # Strategic Asset Allocation & Net-Zero Optimizer 📊
 
+[![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://saa-optimizer.streamlit.app)
+
 An institutional-grade portfolio optimization and backtesting engine that integrates Bayesian expected returns, convex optimization, and dynamic climate mandates. Built with Python and Streamlit, this tool bridges the gap between traditional quantitative finance and modern ESG constraints.
+
+## 🌐 Live Dashboard
+**No installation required.** You can experience the full convex optimization and walk-forward backtesting engine directly in your browser:
+👉 **[Launch the SAA Optimizer Live](https://saa-optimizer.streamlit.app)**
 
 ## 🧠 Mathematical Framework
 
@@ -29,7 +35,7 @@ The project is separated into a strict backend logic engine and a frontend inter
 
 ## 🚀 Installation & Usage
 
-**Requirement:** Due to the C++ compilation requirements of the underlying quantitative solvers (`osqp`, `scs`), this environment requires a stable Python release (**Python 3.14**).
+**Requirement:** Due to the C++ compilation requirements of the underlying quantitative solvers (`osqp`, `scs`), this environment requires a stable Python release (**Python 3.14).
 
 1. **Clone the repository:**
    ```bash
