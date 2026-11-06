@@ -33,7 +33,7 @@ The project is separated into a strict backend logic engine and a frontend inter
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YourUsername/institutional-saa-optimizer.git](https://github.com/YourUsername/institutional-saa-optimizer.git)
+   git clone [https://github.com/Pratham-A-25/institutional-saa-optimizer.git](https://github.com/Pratham-A-25/institutional-saa-optimizer.git)
    cd institutional-saa-optimizer
    ```
 
