@@ -29,7 +29,7 @@ The project is separated into a strict backend logic engine and a frontend inter
 
 ## 🚀 Installation & Usage
 
-**Requirement:** Due to the C++ compilation requirements of the underlying quantitative solvers (`osqp`, `scs`), this environment requires a stable Python release (**Python 3.11 or 3.12**).
+**Requirement:** Due to the C++ compilation requirements of the underlying quantitative solvers (`osqp`, `scs`), this environment requires a stable Python release (**Python 3.14**).
 
 1. **Clone the repository:**
    ```bash
@@ -57,7 +57,7 @@ The project is separated into a strict backend logic engine and a frontend inter
    ```
 
 ## 🛠️ Technology Stack
-*   **Language:** Python 3.12
+*   **Language:** Python 3.14
 *   **Quantitative Solvers:** `cvxpy`, `scipy`, `osqp`, `scikit-learn`
 *   **Data & Analytics:** `pandas`, `numpy`, `yfinance`
 *   **Frontend & Visualization:** `streamlit`, `altair`, `matplotlib`
