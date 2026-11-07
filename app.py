@@ -491,7 +491,7 @@ if run_clicked:
                 .mark_area(opacity=0.35, line={"strokeWidth": 1.5})
                 .encode(
                     x=alt.X("Date:T", title=None),
-                    y=alt.Y("Drawdown (%):Q", title="Drawdown (%)", scale=alt.Scale(zero=True)),
+                    y=alt.Y("Drawdown (%):Q", title="Drawdown (%)", stack=None, scale=alt.Scale(zero=True)),
                     color=alt.Color(
                         "Strategy:N",
                         scale=alt.Scale(
